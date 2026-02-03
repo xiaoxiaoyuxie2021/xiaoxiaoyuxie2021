@@ -1,188 +1,165 @@
-<!-- 顶部装饰 SVG -->
-<svg width="100%" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+<!-- 顶部动态横幅 -->
+<svg width="100%" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#39C5BB;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#66CCFF;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FF6B9D;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="800" height="120" fill="url(#headerGrad)" rx="10"/>
-  <text x="400" y="75" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">
-    沐咲汐 の GitHub
-  </text>
-  <circle cx="50" cy="60" r="8" fill="white" opacity="0.8">
-    <animate attributeName="cy" values="60;50;60" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="750" cy="60" r="8" fill="white" opacity="0.8">
-    <animate attributeName="cy" values="60;70;60" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
-</svg>
-
----
-
-<!-- 个人信息卡片 SVG -->
-<svg width="100%" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#f0f9ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#e0f2fe;stop-opacity:1" />
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#39C5BB;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#FF6B9D;stop-opacity:0.2" />
     </linearGradient>
   </defs>
   
-  <!-- 卡片背景 -->
-  <rect x="10" y="10" width="780" height="180" fill="url(#cardBg)" stroke="#39C5BB" stroke-width="2" rx="15"/>
+  <!-- 背景 -->
+  <rect width="800" height="180" fill="url(#sky)" rx="15"/>
+  
+  <!-- 音符装饰 -->
+  <g opacity="0.6">
+    <text x="50" y="50" font-size="30" fill="#39C5BB">♪</text>
+    <text x="100" y="80" font-size="20" fill="#FF6B9D">♫</text>
+    <text x="700" y="60" font-size="25" fill="#66CCFF">♬</text>
+    <text x="750" y="90" font-size="18" fill="#39C5BB">♪</text>
+  </g>
   
   <!-- 头像框 -->
-  <circle cx="100" cy="100" r="60" fill="#39C5BB" opacity="0.2"/>
-  <circle cx="100" cy="100" r="55" fill="none" stroke="#39C5BB" stroke-width="3"/>
-  <text x="100" y="110" font-family="Arial" font-size="40" text-anchor="middle">🎧</text>
+  <circle cx="400" cy="90" r="50" fill="white" stroke="#39C5BB" stroke-width="3"/>
+  <circle cx="400" cy="90" r="45" fill="#f0fdfa"/>
+  <text x="400" y="105" font-size="40" text-anchor="middle">🎧</text>
   
-  <!-- 文字信息 -->
-  <text x="180" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1a1a2e">沐咲汐</text>
-  <text x="180" y="90" font-family="Arial" font-size="16" fill="#666">xiaoxiaoyuxie2021 | He/Him</text>
-  <text x="180" y="115" font-family="Arial" font-size="14" fill="#39C5BB">🏫 大一非计算机专业 | 手搓博客中</text>
-  
-  <!-- 博客链接 -->
-  <rect x="180" y="130" width="200" height="30" fill="#39C5BB" rx="5"/>
-  <text x="280" y="150" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🌐 muxiaoxi.com</text>
-  
-  <!-- 装饰音符 -->
-  <text x="700" y="50" font-size="30" fill="#FF6B9D" opacity="0.6">♪</text>
-  <text x="730" y="80" font-size="25" fill="#66CCFF" opacity="0.6">♫</text>
-  <text x="710" y="120" font-size="20" fill="#39C5BB" opacity="0.6">♬</text>
+  <!-- 名字 -->
+  <text x="400" y="160" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1a1a2e" text-anchor="middle">沐咲汐</text>
 </svg>
 
 ---
 
-## 🎵 二次元浓度检测
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://img.shields.io/badge/龙女仆-托尔-FF6B9D?style=for-the-badge&logo=appveyor&logoColor=white"/>
-      <br>
-      <sub>小林家的龙女仆</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="https://img.shields.io/badge/魔禁-御坂美琴-FFD700?style=for-the-badge&logo=appveyor&logoColor=black"/>
-      <br>
-      <sub>魔法禁书目录</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/VOCALOID-初音未来-39C5BB?style=for-the-badge&logo=appveyor&logoColor=white"/>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/VOCALOID-洛天依-66CCFF?style=for-the-badge&logo=appveyor&logoColor=white"/>
-    </td>
-  </tr>
-</table>
+<!-- 身份标签 -->
+<p align="center">
+  <img src="https://img.shields.io/badge/🏫-大一_非计算机专业-FF6B9D?style=flat-square"/>
+  <img src="https://img.shields.io/badge/🎯-手搓博客中-39C5BB?style=flat-square"/>
+  <img src="https://img.shields.io/badge/🌐-muxiaoxi.com-66CCFF?style=flat-square"/>
+</p>
 
 ---
 
-## 🚀 手搓博客工程
-
-<!-- 项目展示 SVG -->
-<svg width="100%" height="150" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
+<!-- 核心项目卡片 -->
+<svg width="100%" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="projectBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#39C5BB;stop-opacity:0.1" />
       <stop offset="100%" style="stop-color:#FF6B9D;stop-opacity:0.1" />
     </linearGradient>
   </defs>
   
-  <rect x="10" y="10" width="780" height="130" fill="url(#projectBg)" stroke="#39C5BB" stroke-width="2" rx="10"/>
+  <rect x="20" y="20" width="760" height="160" fill="url(#card)" stroke="#39C5BB" stroke-width="2" rx="15"/>
   
   <!-- 项目图标 -->
-  <rect x="30" y="30" width="80" height="80" fill="#39C5BB" rx="10" opacity="0.2"/>
-  <text x="70" y="80" font-size="40" text-anchor="middle">📝</text>
+  <circle cx="80" cy="100" r="40" fill="#39C5BB" opacity="0.2"/>
+  <text x="80" y="115" font-size="35" text-anchor="middle">📝</text>
   
-  <!-- 项目信息 -->
-  <text x="130" y="50" font-family="Arial" font-size="22" font-weight="bold" fill="#1a1a2e">Blog-muxiaoxi</text>
-  <text x="130" y="75" font-family="Arial" font-size="14" fill="#666">40天手搓个人博客 | Hugo + GitHub Actions + Cloudflare</text>
+  <!-- 项目名 -->
+  <text x="140" y="70" font-family="Arial" font-size="24" font-weight="bold" fill="#1a1a2e">Blog-muxiaoxi</text>
+  
+  <!-- 技术标签 -->
+  <rect x="140" y="85" width="60" height="22" fill="#FF4088" rx="5" opacity="0.9"/>
+  <text x="170" y="100" font-family="Arial" font-size="11" fill="white" text-anchor="middle" font-weight="bold">Hugo</text>
+  
+  <rect x="210" y="85" width="110" height="22" fill="#2088FF" rx="5" opacity="0.9"/>
+  <text x="265" y="100" font-family="Arial" font-size="11" fill="white" text-anchor="middle" font-weight="bold">GitHub Actions</text>
+  
+  <rect x="330" y="85" width="80" height="22" fill="#F38020" rx="5" opacity="0.9"/>
+  <text x="370" y="100" font-family="Arial" font-size="11" fill="white" text-anchor="middle" font-weight="bold">Cloudflare</text>
   
   <!-- Lighthouse 分数 -->
-  <text x="130" y="100" font-family="Arial" font-size="12" fill="#39C5BB">⚡ Performance 81</text>
-  <text x="250" y="100" font-family="Arial" font-size="12" fill="#22c55e">♿ Accessibility 100</text>
-  <text x="400" y="100" font-family="Arial" font-size="12" fill="#22c55e">✓ Best Practices 100</text>
-  <text x="550" y="100" font-family="Arial" font-size="12" fill="#3b82f6">🔍 SEO 91</text>
+  <text x="140" y="140" font-family="Arial" font-size="14" fill="#666">⚡ 81 · ♿ 100 · ✓ 100 · 🔍 91</text>
   
-  <!-- 目标 -->
-  <rect x="130" y="115" width="300" height="6" fill="#e5e7eb" rx="3"/>
-  <rect x="130" y="115" width="243" height="6" fill="#FF6B9D" rx="3">
-    <animate attributeName="width" values="0;243" dur="1s" fill="freeze"/>
-  </rect>
-  <text x="440" y="122" font-family="Arial" font-size="11" fill="#FF6B9D">冲刺 90+ 中...</text>
+  <!-- 进度条 -->
+  <rect x="140" y="155" width="200" height="8" fill="#e5e7eb" rx="4"/>
+  <rect x="140" y="155" width="162" height="8" fill="#FF6B9D" rx="4"/>
+  <text x="350" y="163" font-family="Arial" font-size="11" fill="#FF6B9D">冲刺 90+</text>
 </svg>
 
-**核心成就：**
-- 从"会用"升级到"会调"，掌握**调试直觉 + 性能嗅觉 + 需求翻译**
-- 解决 DNSSEC 配置、Git 大小写同步、404 终极排查等生产环境问题
-- 使用 Font Awesome 7.1.0 本地图标包，零外部依赖
+---
+
+<!-- 技能矩阵 -->
+<svg width="100%" height="280" viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="30" font-family="Arial" font-size="16" fill="#39C5BB" font-weight="bold">SKILL MATRIX</text>
+  
+  <!-- HTML -->
+  <circle cx="80" cy="80" r="35" fill="#e34c26" opacity="0.1"/>
+  <circle cx="80" cy="80" r="35" fill="none" stroke="#e34c26" stroke-width="3" stroke-dasharray="165 220"/>
+  <text x="80" y="75" font-size="20" text-anchor="middle">🟧</text>
+  <text x="80" y="95" font-family="Arial" font-size="10" fill="#e34c26" text-anchor="middle" font-weight="bold">95%</text>
+  <text x="80" y="135" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">HTML</text>
+  
+  <!-- CSS -->
+  <circle cx="200" cy="80" r="35" fill="#264de4" opacity="0.1"/>
+  <circle cx="200" cy="80" r="35" fill="none" stroke="#264de4" stroke-width="3" stroke-dasharray="154 220"/>
+  <text x="200" y="75" font-size="20" text-anchor="middle">🟦</text>
+  <text x="200" y="95" font-family="Arial" font-size="10" fill="#264de4" text-anchor="middle" font-weight="bold">88%</text>
+  <text x="200" y="135" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">CSS</text>
+  
+  <!-- JS -->
+  <circle cx="320" cy="80" r="35" fill="#f7df1e" opacity="0.1"/>
+  <circle cx="320" cy="80" r="35" fill="none" stroke="#f7df1e" stroke-width="3" stroke-dasharray="132 220"/>
+  <text x="320" y="75" font-size="20" text-anchor="middle">🟨</text>
+  <text x="320" y="95" font-family="Arial" font-size="10" fill="#ca8a04" text-anchor="middle" font-weight="bold">75%</text>
+  <text x="320" y="135" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">JS</text>
+  
+  <!-- Hugo -->
+  <circle cx="440" cy="80" r="35" fill="#FF4088" opacity="0.1"/>
+  <circle cx="440" cy="80" r="35" fill="none" stroke="#FF4088" stroke-width="3" stroke-dasharray="144 220"/>
+  <text x="440" y="75" font-size="20" text-anchor="middle">💗</text>
+  <text x="440" y="95" font-family="Arial" font-size="10" fill="#FF4088" text-anchor="middle" font-weight="bold">82%</text>
+  <text x="440" y="135" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">Hugo</text>
+  
+  <!-- Git -->
+  <circle cx="560" cy="80" r="35" fill="#f05032" opacity="0.1"/>
+  <circle cx="560" cy="80" r="35" fill="none" stroke="#f05032" stroke-width="3" stroke-dasharray="137 220"/>
+  <text x="560" y="75" font-size="20" text-anchor="middle">🟥</text>
+  <text x="560" y="95" font-family="Arial" font-size="10" fill="#f05032" text-anchor="middle" font-weight="bold">78%</text>
+  <text x="560" y="135" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">Git</text>
+  
+  <!-- Cloudflare -->
+  <circle cx="680" cy="80" r="35" fill="#f38020" opacity="0.1"/>
+  <circle cx="680" cy="80" r="35" fill="none" stroke="#f38020" stroke-width="3" stroke-dasharray="123 220"/>
+  <text x="680" y="75" font-size="20" text-anchor="middle">🟧</text>
+  <text x="680" y="95" font-family="Arial" font-size="10" fill="#f38020" text-anchor="middle" font-weight="bold">70%</text>
+  <text x="680" y="135" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">CF</text>
+  
+  <!-- 分割线 -->
+  <line x1="20" y1="170" x2="780" y2="170" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- 二次元浓度 -->
+  <text x="20" y="200" font-family="Arial" font-size="16" fill="#FF6B9D" font-weight="bold">WAIFU COLLECTION</text>
+  
+  <rect x="20" y="220" width="120" height="40" fill="#FF6B9D" opacity="0.1" stroke="#FF6B9D" stroke-width="1" rx="8"/>
+  <text x="80" y="245" font-family="Arial" font-size="12" fill="#FF6B9D" text-anchor="middle" font-weight="bold">🐉 托尔</text>
+  
+  <rect x="150" y="220" width="120" height="40" fill="#FFD700" opacity="0.1" stroke="#FFD700" stroke-width="1" rx="8"/>
+  <text x="210" y="245" font-family="Arial" font-size="12" fill="#ca8a04" text-anchor="middle" font-weight="bold">⚡ 御坂美琴</text>
+  
+  <rect x="280" y="220" width="120" height="40" fill="#39C5BB" opacity="0.1" stroke="#39C5BB" stroke-width="1" rx="8"/>
+  <text x="340" y="245" font-family="Arial" font-size="12" fill="#39C5BB" text-anchor="middle" font-weight="bold">🎤 初音未来</text>
+  
+  <rect x="410" y="220" width="120" height="40" fill="#66CCFF" opacity="0.1" stroke="#66CCFF" stroke-width="1" rx="8"/>
+  <text x="470" y="245" font-family="Arial" font-size="12" fill="#0284c7" text-anchor="middle" font-weight="bold">🎶 洛天依</text>
+</svg>
 
 ---
 
-## 🛠️ 技术栈
-
-### 🎨 Frontend
-
-| 技能 | 熟练度 | 进度 |
-|:---|:---|:---|
-| 🟧 **HTML5** | 95% | <svg width="200" height="16"><rect width="200" height="16" fill="#e5e7eb" rx="8"/><rect width="190" height="16" fill="#e34c26" rx="8"/></svg> |
-| 🟦 **CSS3** | 88% | <svg width="200" height="16"><rect width="200" height="16" fill="#e5e7eb" rx="8"/><rect width="176" height="16" fill="#264de4" rx="8"/></svg> |
-| 🟨 **JavaScript** | 75% | <svg width="200" height="16"><rect width="200" height="16" fill="#e5e7eb" rx="8"/><rect width="150" height="16" fill="#f7df1e" rx="8"/></svg> |
-
-### ⚡ Static Site & Tools
-
-| 技能 | 熟练度 | 进度 |
-|:---|:---|:---|
-| 💗 **Hugo** | 82% | <svg width="200" height="16"><rect width="200" height="16" fill="#e5e7eb" rx="8"/><rect width="164" height="16" fill="#FF4088" rx="8"/></svg> |
-| 🟥 **Git/Actions** | 78% | <svg width="200" height="16"><rect width="200" height="16" fill="#e5e7eb" rx="8"/><rect width="156" height="16" fill="#f05032" rx="8"/></svg> |
-| 🟧 **Cloudflare** | 70% | <svg width="200" height="16"><rect width="200" height="16" fill="#e5e7eb" rx="8"/><rect width="140" height="16" fill="#f38020" rx="8"/></svg> |
-
-
----
-
-## 📊 当前挑战进度
-
-| 挑战 | 进度 | 状态 |
-|------|------|------|
-| 🏃 性能优化冲刺 90+ | ████████░░ 80% | 进行中 |
-| 🌙 黑夜模式开发 | ██████░░░░ 60% | 进行中 |
-| 🔍 本地搜索实现 | ████░░░░░░ 40% | 计划中 |
-| 🛡️ 安全靶场搭建 | █████░░░░░ 50% | 进行中 |
-
----
-
-## 🌐 传送门
-
+<!-- 底部链接 -->
 <p align="center">
-  <a href="https://muxiaoxi.com">
-    <img src="https://img.shields.io/badge/🌐_个人博客-muxiaoxi.com-39C5BB?style=for-the-badge&logo=hugo&logoColor=white"/>
-  </a>
-  <a href="https://b23.tv/snLtCQc">
-    <img src="https://img.shields.io/badge/📺_Bilibili-沐咲汐-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white"/>
-  </a>
-  <a href="https://github.com/xiaoxiaoyuxie2021">
-    <img src="https://img.shields.io/badge/💻_GitHub-xiaoxiaoyuxie2021-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
+  <a href="https://muxiaoxi.com"><img src="https://img.shields.io/badge/🌐-Blog-39C5BB?style=for-the-badge"/></a>
+  <a href="https://b23.tv/snLtCQc"><img src="https://img.shields.io/badge/📺-Bilibili-00A1D6?style=for-the-badge"/></a>
+  <a href="https://github.com/xiaoxiaoyuxie2021"><img src="https://img.shields.io/badge/💻-GitHub-181717?style=for-the-badge"/></a>
 </p>
 
----
-
-<!-- 底部装饰 -->
-<svg width="100%" height="80" viewBox="0 0 800 80" xmlns="http://www.w3.org/2000/svg">
+<!-- 页脚 -->
+<svg width="100%" height="60" viewBox="0 0 800 60" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#66CCFF;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#39C5BB;stop-opacity:1" />
+    <linearGradient id="footer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B9D" />
+      <stop offset="50%" style="stop-color:#66CCFF" />
+      <stop offset="100%" style="stop-color:#39C5BB" />
     </linearGradient>
   </defs>
-  <rect width="800" height="60" fill="url(#footerGrad)" rx="10"/>
-  <!-- 装饰星星 -->
-  <text x="100" y="30" font-size="20" fill="white" opacity="0.6">✦</text>
-  <text x="700" y="45" font-size="15" fill="white" opacity="0.6">✦</text>
+  <rect width="800" height="40" fill="url(#footer)" rx="8"/>
+  <text x="400" y="28" font-family="Arial" font-size="14" fill="white" text-anchor="middle">⭐ 从"会用"到"会调" ⭐</text>
 </svg>
