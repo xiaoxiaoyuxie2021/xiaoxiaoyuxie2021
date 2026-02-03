@@ -1,62 +1,46 @@
-<!-- 顶部装饰横幅 -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/xiaoxiaoyuxie2021/xiaoxiaoyuxie2021/main/assets/banner.svg" width="100%" alt="banner">
-</p>
+### 👋 Hi there! I'm [你的名字/昵称]
+**Full Stack Developer** / **AI Enthusiast** / **Open Source Lover**
+📍 [你的城市] | 📧 [你的邮箱] | 🔗 [你的博客/掘金/Gitee链接]
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=[你的GitHub用户名]&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
-<!-- 如果不会做SVG横幅，可以用这个纯文字版本 -->
-<!--
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B%2C+I'm+%E6%B2%90%E5%92%B2%E6%B1%90;Full+Stack+Explorer;Hugo+%7C+Cloudflare+%7C+GitHub+Actions;Blogging+at+muxiaoxi.com" alt="Typing SVG">
-</p>
--->
+### 🛠️ Tech Stack
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vue](https://img.shields.io/badge/Vue-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-<h1 align="center">沐咲汐</h1>
-<p align="center">
-  <b>大一非计算机专业 | 手搓博客中 | 从"会用"到"会调"</b>
-</p>
+### 📊 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=[你的GitHub用户名]&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[你的GitHub用户名]&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="48%"/>
+</div>
 
-<p align="center">
-  <a href="https://muxiaoxi.com">🌐 Blog</a> •
-  <a href="https://b23.tv/snLtCQc">📺 Bilibili</a> •
-  <a href="https://github.com/xiaoxiaoyuxie2021">💻 GitHub</a>
-</p>
+### 🌟 Featured Projects
+<div align="center">
+  <a href="[项目1仓库链接]">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=[你的GitHub用户名]&repo=[项目1仓库名]&theme=tokyonight&hide_border=true" width="45%"/>
+  </a>
+  <a href="[项目2仓库链接]">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=[你的GitHub用户名]&repo=[项目2仓库名]&theme=tokyonight&hide_border=true" width="45%"/>
+  </a>
+</div>
+
+### 📈 Recent Activity
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+<script src="https://github-readme-activity-graph.vercel.app/graph?username=[你的GitHub用户名]&theme=tokyonight&hide_border=true&area=true"></script>
+
+### 🤝 Connect with Me
+[![GitHub](https://img.shields.io/badge/GitHub-[你的GitHub用户名]-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/[你的GitHub用户名])
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-[你的LinkedIn昵称]-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([你的LinkedIn链接])
+[![CSDN](https://img.shields.io/badge/CSDN-[你的CSDN昵称]-FF4D5B?style=for-the-badge&logo=csdn&logoColor=white)]([你的CSDN链接])
+[![掘金](https://img.shields.io/badge/掘金-[你的掘金昵称]-E68523?style=for-the-badge&logo=juejin&logoColor=white)]([你的掘金链接])
 
 ---
-
-## 🎯 关于我
-
-```javascript
-const muxiaoxi = {
-  name: "沐咲汐",
-  pronouns: "He/Him",
-  location: "China",
-  blog: "https://muxiaoxi.com",
-  currentStatus: "大一非计算机专业 | 手搓博客中",
-  
-  // 技术栈
-  stack: {
-    frontend: ["HTML", "CSS", "JavaScript", "Hugo"],
-    deployment: ["GitHub Pages", "Cloudflare", "GitHub Actions"],
-    tools: ["Git", "VS Code", "Font Awesome", "Wrangler"]
-  },
-  
-  // 博客性能 (Lighthouse)
-  lighthouse: {
-    performance: 81,    // 🎯 目标: 90+
-    accessibility: 100, // ✅ 完美
-    bestPractices: 100, // ✅ 完美
-    seo: 91             // ✅ 优秀
-  },
-  
-  // 二次元浓度检测
-  waifu: ["托尔 (小林家的龙女仆)", "御坂美琴 (魔法禁书目录)"],
-  vocaloid: ["初音未来", "洛天依"],
-  
-  // 当前挑战
-  challenges: [
-    "🏃 性能优化冲刺 90+",
-    "🌙 黑夜模式开发",
-    "🔍 本地搜索实现", 
-    "🛡️ 安全靶场搭建"
-  ]
-};
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=[你的GitHub用户名]&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  <p>✨ Keep Coding, Keep Exploring ✨</p>
+</div>
