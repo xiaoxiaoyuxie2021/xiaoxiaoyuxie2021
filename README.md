@@ -1,46 +1,73 @@
-### 👋 Hi there! I'm [你的名字/昵称]
-**Full Stack Developer** / **AI Enthusiast** / **Open Source Lover**
-📍 [你的城市] | 📧 [你的邮箱] | 🔗 [你的博客/掘金/Gitee链接]
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=[你的GitHub用户名]&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+<!-- 顶部横幅 - 使用 GitHub 原生支持的图片 -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xiaoxiaoyuxie2021/xiaoxiaoyuxie2021/main/assets/banner.png" width="100%" alt="沐咲汐" />
+</p>
 
-### 🛠️ Tech Stack
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vue](https://img.shields.io/badge/Vue-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+<h1 align="center">沐咲汐</h1>
+<p align="center">大一非计算机专业 | 手搓博客中 | 从"会用"到"会调"</p>
 
-### 📊 GitHub Stats
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=[你的GitHub用户名]&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[你的GitHub用户名]&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="48%"/>
-</div>
-
-### 🌟 Featured Projects
-<div align="center">
-  <a href="[项目1仓库链接]">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=[你的GitHub用户名]&repo=[项目1仓库名]&theme=tokyonight&hide_border=true" width="45%"/>
-  </a>
-  <a href="[项目2仓库链接]">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=[你的GitHub用户名]&repo=[项目2仓库名]&theme=tokyonight&hide_border=true" width="45%"/>
-  </a>
-</div>
-
-### 📈 Recent Activity
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-<script src="https://github-readme-activity-graph.vercel.app/graph?username=[你的GitHub用户名]&theme=tokyonight&hide_border=true&area=true"></script>
-
-### 🤝 Connect with Me
-[![GitHub](https://img.shields.io/badge/GitHub-[你的GitHub用户名]-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/[你的GitHub用户名])
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-[你的LinkedIn昵称]-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([你的LinkedIn链接])
-[![CSDN](https://img.shields.io/badge/CSDN-[你的CSDN昵称]-FF4D5B?style=for-the-badge&logo=csdn&logoColor=white)]([你的CSDN链接])
-[![掘金](https://img.shields.io/badge/掘金-[你的掘金昵称]-E68523?style=for-the-badge&logo=juejin&logoColor=white)]([你的掘金链接])
+<p align="center">
+  <a href="https://muxiaoxi.com"><img src="https://img.shields.io/badge/🌐-muxiaoxi.com-00D9FF?style=flat-square" /></a>
+  <a href="https://b23.tv/snLtCQc"><img src="https://img.shields.io/badge/📺-Bilibili-00A1D6?style=flat-square" /></a>
+  <img src="https://img.shields.io/badge/📍-扬州-FF6B9D?style=flat-square" />
+</p>
 
 ---
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=[你的GitHub用户名]&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-  <p>✨ Keep Coding, Keep Exploring ✨</p>
-</div>
+
+## 🎯 当前状态
+
+| 项目 | 详情 |
+|:---|:---|
+| **博客** | [muxiaoxi.com](https://muxiaoxi.com) - 40天手搓，Hugo + GitHub Pages |
+| **性能** | Lighthouse 81/100/100/91 → 冲刺 90+ |
+| **挑战** | 🌙 黑夜模式 / 🔍 本地搜索 / 🛡️ 安全靶场 |
+| **身份** | 托尔 & 美琴推 / 初音 & 天依听众 |
+
+---
+
+## 🛠️ 技术栈
+
+### 前端
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+
+### 构建与部署
+![Hugo](https://img.shields.io/badge/Hugo-FF4088?logo=hugo&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222?logo=github&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white)
+
+### 工具链
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visual-studio-code&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)
+
+---
+
+## 📊 博客性能指标
+
+| 指标 | 当前 | 目标 | 状态 |
+|:---|:---:|:---:|:---:|
+| **Performance** | 81 | 90+ | 🟡 优化中 |
+| **Accessibility** | 100 | 100 | 🟢 达成 |
+| **Best Practices** | 100 | 100 | 🟢 达成 |
+| **SEO** | 91 | 95 | 🟡 优化中 |
+
+---
+
+## 🚀 精选项目
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌐 [Blog-muxiaoxi](https://github.com/xiaoxiaoyuxie2021/Blog-muxiaoxi)
+
+**40天手搓的个人博客**
+
+- ⚡ Hugo 静态生成器
+- 🔄 GitHub Actions 自动部署
+- 🌐 Cloudflare Pages 全球加速
+- 📈 Lighthouse 优秀评级
+
+**核心收获**：从"会用"升级到"会调"，掌握调试直觉 + 性能嗅觉 + 需求翻译
