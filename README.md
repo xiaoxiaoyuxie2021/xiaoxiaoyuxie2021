@@ -124,49 +124,24 @@
 
 ---
 
-## 🛠️ 技术栈可视化
+## 🛠️ 技术栈
 
-<!-- 技能条 SVG -->
-<svg width="100%" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
-  <text x="20" y="30" font-family="Arial" font-size="18" font-weight="bold" fill="#1a1a2e">Frontend</text>
-  
-  <!-- HTML -->
-  <rect x="20" y="40" width="760" height="25" fill="#f3f4f6" rx="5"/>
-  <rect x="20" y="40" width="700" height="25" fill="#e34c26" rx="5" opacity="0.8">
-    <animate attributeName="width" values="0;700" dur="0.5s" fill="freeze"/>
-  </rect>
-  <text x="30" y="58" font-family="Arial" font-size="12" fill="white" font-weight="bold">HTML 95%</text>
-  
-  <!-- CSS -->
-  <rect x="20" y="75" width="760" height="25" fill="#f3f4f6" rx="5"/>
-  <rect x="20" y="75" width="650" height="25" fill="#264de4" rx="5" opacity="0.8">
-    <animate attributeName="width" values="0;650" dur="0.6s" fill="freeze"/>
-  </rect>
-  <text x="30" y="93" font-family="Arial" font-size="12" fill="white" font-weight="bold">CSS 88%</text>
-  
-  <!-- JavaScript -->
-  <rect x="20" y="110" width="760" height="25" fill="#f3f4f6" rx="5"/>
-  <rect x="20" y="110" width="550" height="25" fill="#f7df1e" rx="5" opacity="0.9">
-    <animate attributeName="width" values="0;550" dur="0.7s" fill="freeze"/>
-  </rect>
-  <text x="30" y="128" font-family="Arial" font-size="12" fill="#1a1a2e" font-weight="bold">JavaScript 75%</text>
-  
-  <text x="20" y="170" font-family="Arial" font-size="18" font-weight="bold" fill="#1a1a2e">Static Site & Tools</text>
-  
-  <!-- Hugo -->
-  <rect x="20" y="180" width="760" height="25" fill="#f3f4f6" rx="5"/>
-  <rect x="20" y="180" width="600" height="25" fill="#FF4088" rx="5" opacity="0.8">
-    <animate attributeName="width" values="0;600" dur="0.8s" fill="freeze"/>
-  </rect>
-  <text x="30" y="198" font-family="Arial" font-size="12" fill="white" font-weight="bold">Hugo 82%</text>
-  
-  <!-- Git/GitHub -->
-  <rect x="20" y="215" width="760" height="25" fill="#f3f4f6" rx="5"/>
-  <rect x="20" y="215" width="580" height="25" fill="#181717" rx="5" opacity="0.8">
-    <animate attributeName="width" values="0;580" dur="0.9s" fill="freeze"/>
-  </rect>
-  <text x="30" y="233" font-family="Arial" font-size="12" fill="white" font-weight="bold">Git/GitHub Actions 78%</text>
-</svg>
+### 🎨 Frontend
+
+| 技能 | 熟练度 | 进度 |
+|:---|:---|:---|
+| 🟧 **HTML5** | 95% | <svg width="200" height="16"><rect width="200" height="16" fill="#e5e7eb" rx="8"/><rect width="190" height="16" fill="#e34c26" rx="8"/></svg> |
+| 🟦 **CSS3** | 88% | <svg width="200" height="16"><rect width="200" height="16" fill="#e5e7eb" rx="8"/><rect width="176" height="16" fill="#264de4" rx="8"/></svg> |
+| 🟨 **JavaScript** | 75% | <svg width="200" height="16"><rect width="200" height="16" fill="#e5e7eb" rx="8"/><rect width="150" height="16" fill="#f7df1e" rx="8"/></svg> |
+
+### ⚡ Static Site & Tools
+
+| 技能 | 熟练度 | 进度 |
+|:---|:---|:---|
+| 💗 **Hugo** | 82% | <svg width="200" height="16"><rect width="200" height="16" fill="#e5e7eb" rx="8"/><rect width="164" height="16" fill="#FF4088" rx="8"/></svg> |
+| 🟥 **Git/Actions** | 78% | <svg width="200" height="16"><rect width="200" height="16" fill="#e5e7eb" rx="8"/><rect width="156" height="16" fill="#f05032" rx="8"/></svg> |
+| 🟧 **Cloudflare** | 70% | <svg width="200" height="16"><rect width="200" height="16" fill="#e5e7eb" rx="8"/><rect width="140" height="16" fill="#f38020" rx="8"/></svg> |
+
 
 ---
 
