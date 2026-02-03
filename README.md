@@ -1,8 +1,6 @@
 <div align="center">
-  <!-- 顶部二次元标题+动态打字 -->
   <img src="https://readme-typing-svg.herokuapp.com?font=Ma+Shan+Zheng&size=36&duration=3000&pause=1000&color=FF7A9C&center=true&vCenter=true&width=600&height=80&lines=沐咲汐の次元代码空间;大一非科班✨前端自学ing;代码与动漫皆不可负" alt="typing" style="margin-bottom:20px;"/>
   
-  <!-- 个人信息萌系徽章 -->
   <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:25px;">
     <img src="https://img.shields.io/badge/💻 技术栈-HTML5+CSS3+JS-FF9E64?style=for-the-badge&logo=javascript&logoColor=white&labelColor=2D2D2D&borderRadius=15"/>
     <img src="https://img.shields.io/badge/🚀 部署-Cloudflare+Git-6495ED?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=2D2D2D&borderRadius=15"/>
@@ -10,30 +8,6 @@
     <img src="https://img.shields.io/badge/🏠 博客-muxiaoxi.com-7451EB?style=for-the-badge&logo=blogger&logoColor=white&labelColor=2D2D2D&borderRadius=15"/>
   </div>
 
-  <!-- 二次元分割线 -->
-  <img src="https://picsum.photos/900/60?random=2&blur=2" alt="divider" style="width:95%;border-radius:10px;opacity:0.6;margin-bottom:25px;"/>
-</div>
-
-## 🛠️ 次元技术栈 | Tech Stack
-<div align="center" style="display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-bottom:30px;">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white&color=E34F26&labelColor=2D2D2D" width="100" height="50"/>
-  <img src="https:// 沐咲汐の次元代码空间 ✨
-超贴合二次元审美，加入**萌系装饰、角色元素、渐变霓虹、动态特效**，排版更灵动，色彩更贴合托尔/炮姐本命，适配GitHub暗黑模式，直接复制即用👇
-
-```markdown
-<div align="center">
-  <!-- 顶部二次元标题+动态打字 -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Ma+Shan+Zheng&size=36&duration=3000&pause=1000&color=FF7A9C&center=true&vCenter=true&width=600&height=80&lines=沐咲汐の次元代码空间;大一非科班✨前端自学ing;代码与动漫皆不可负" alt="typing" style="margin-bottom:20px;"/>
-  
-  <!-- 个人信息萌系徽章 -->
-  <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:25px;">
-    <img src="https://img.shields.io/badge/💻 技术栈-HTML5+CSS3+JS-FF9E64?style=for-the-badge&logo=javascript&logoColor=white&labelColor=2D2D2D&borderRadius=15"/>
-    <img src="https://img.shields.io/badge/🚀 部署-Cloudflare+Git-6495ED?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=2D2D2D&borderRadius=15"/>
-    <img src="https://img.shields.io/badge/🎓 身份-大一非计科男生-9370DB?style=for-the-badge&logo=notion&logoColor=white&labelColor=2D2D2D&borderRadius=15"/>
-    <img src="https://img.shields.io/badge/🏠 博客-muxiaoxi.com-7451EB?style=for-the-badge&logo=blogger&logoColor=white&labelColor=2D2D2D&borderRadius=15"/>
-  </div>
-
-  <!-- 二次元分割线 -->
   <img src="https://picsum.photos/900/60?random=2&blur=2" alt="divider" style="width:95%;border-radius:10px;opacity:0.6;margin-bottom:25px;"/>
 </div>
 
@@ -82,17 +56,14 @@
 </div>
 
 <div align="center">
-  <!-- 底部访问量+动态文字 -->
   <img src="https://komarev.com/ghpvc/?username=xiaoxiaoyuxie2021&label=次元访问量&color=FF7A9C&style=for-the-badge&labelColor=2D2D2D&borderRadius=15" alt="views" style="margin-bottom:20px;"/>
   <br>
   <img src="https://readme-typing-svg.herokuapp.com?font=Ma+Shan+Zheng&size=24&duration=2500&pause=2000&color=9370DB&center=true&vCenter=true&width=500&height=60&lines=保持热爱·奔赴代码与次元;非科班也能敲出自己的世界✨" alt="typing2"/>
   
-  <!-- 底部二次元装饰 -->
   <p style="color:#FF9E64; font-family:Ma Shan Zheng; font-size:20px; margin-top:20px;">© 2025 沐咲汐 | 以代码为笔，绘次元星河</p>
   <img src="https://picsum.photos/900/60?random=3&blur=3" alt="footer" style="width:95%;border-radius:10px;opacity:0.5;margin-top:15px;"/>
 </div>
 
-<!-- 隐藏式二次元小彩蛋 -->
 <div align="center" style="margin-top:10px;color:#6495ED;font-size:14px;">
   🔍 炮姐の超电磁炮 | 托尔の龙息 ≡ 代码の无限可能
 </div>
