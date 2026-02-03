@@ -207,9 +207,6 @@
     </linearGradient>
   </defs>
   <rect width="800" height="60" fill="url(#footerGrad)" rx="10"/>
-  <text x="400" y="40" font-family="Arial" font-size="16" fill="white" text-anchor="middle">
-    ⭐ 从"会用"到"会调"的进阶之路 ⭐
-  </text>
   <!-- 装饰星星 -->
   <text x="100" y="30" font-size="20" fill="white" opacity="0.6">✦</text>
   <text x="700" y="45" font-size="15" fill="white" opacity="0.6">✦</text>
